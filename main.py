@@ -1,4 +1,4 @@
-# python3
+# Estella Saveljeva 221rdb176 7.grupa
 
 class Query:
     def __init__(self, query):
