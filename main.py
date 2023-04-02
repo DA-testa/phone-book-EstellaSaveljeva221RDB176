@@ -20,8 +20,6 @@ def process_queries(queries):
     for cur_query in queries:
         if cur_query.type == 'add':
            contacts[cur_query.number] = cur_query.name
-            else: # otherwise, just add it
-                contacts.append(cur_query)
         elif cur_query.type == 'del':
             if cur_query.number in contacts:
                 del contacts[cur_query.number]
